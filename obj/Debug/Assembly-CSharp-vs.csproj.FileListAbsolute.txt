@@ -1,0 +1,13 @@
+C:\temp\2D_Platform_Game\Temp\bin\Debug\Assembly-CSharp.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\temp\2D_Platform_Game\Temp\bin\Debug\UnityEditor.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\UnityEngine.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\UnityEngine.UI.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\Mono.Cecil.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\Unity.DataContract.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\temp\2D_Platform_Game\Temp\bin\Debug\Unity.CecilTools.dll
+C:\temp\2D_Platform_Game\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\temp\2D_Platform_Game\obj\Debug\Assembly-CSharp.dll
+C:\temp\2D_Platform_Game\obj\Debug\Assembly-CSharp.pdb

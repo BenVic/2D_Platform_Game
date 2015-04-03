@@ -33,8 +33,8 @@ public class PlayerController : MonoBehaviour
 		{
 				if (Input.GetButtonDown ("Jump")) {
 						if (isGrounded == true) {
-								this.rigidbody2D.velocity = new Vector2 (rigidbody2D.velocity.x, 0);
-								this.rigidbody2D.AddForce (new Vector2 (0, jumpForce));
+								this.GetComponent<Rigidbody2D>().velocity = new Vector2 (GetComponent<Rigidbody2D>().velocity.x, 0);
+								this.GetComponent<Rigidbody2D>().AddForce (new Vector2 (0, jumpForce));
 								this.anim.SetTrigger ("Jump");
 						} else if (isDoubleJumping == false) {
 								isDoubleJumping = true;
@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
 				try {
 						float move = Input.GetAxis ("Horizontal");
 						//maxSpeed = 3.0f;
-						this.rigidbody2D.velocity = new Vector2 (move * maxSpeed, rigidbody2D.velocity.y);
+						this.GetComponent<Rigidbody2D>().velocity = new Vector2 (move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
 						this.anim.SetFloat ("Speed", Mathf.Abs (move));
 						if ((move > 0.0f && isFacingRight == false) || (move < 0.0f && isFacingRight == true)) {
 								Flip ();

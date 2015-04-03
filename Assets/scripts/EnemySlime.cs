@@ -6,9 +6,9 @@ public class EnemySlime : EnemyController
 		void FixedUpdate ()
 		{
 				if (this.isFacingRight == true) {
-						this.rigidbody2D.velocity = new Vector2 (maxSpeed, this.rigidbody2D.velocity.y);
+						this.GetComponent<Rigidbody2D>().velocity = new Vector2 (maxSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
 				} else {
-						this.rigidbody2D.velocity = new Vector2 (maxSpeed * -1, this.rigidbody2D.velocity.y);
+						this.GetComponent<Rigidbody2D>().velocity = new Vector2 (maxSpeed * -1, this.GetComponent<Rigidbody2D>().velocity.y);
 				}
 		}
 

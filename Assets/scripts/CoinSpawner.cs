@@ -19,6 +19,6 @@ public class CoinSpawner : MonoBehaviour
 			 coinSpawnPoint.transform.position,
 			 coinSpawnPoint.transform.rotation) as GameObject;
 
-		coin.rigidbody2D.AddForce(new Vector2((Random.Range(-120,120)), 700));
+		coin.GetComponent<Rigidbody2D>().AddForce(new Vector2((Random.Range(-120,120)), 700));
 	}
 }
